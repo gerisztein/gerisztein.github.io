@@ -5,5 +5,5 @@
   $ npm install  
   
   # Build then start project  
-  $npm start
+  $ npm start
 ```
