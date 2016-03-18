@@ -4,6 +4,6 @@
   # Install all npm dependencies  
   $ npm install  
   
-  # Start project  
+  # Build then start project  
   $npm start
 ```
