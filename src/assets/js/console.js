@@ -1,0 +1,2 @@
+console.log('%cHi there!', 'color:#f00;font-size:32px;text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;');
+console.log('%cAre you looking for something? You can get the whole code at ' + '%cwww.github.com/gerisztein/lucasg.com.br', 'color:#f00', 'color:blue;text-decoration:underline');
