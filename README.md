@@ -1,6 +1,9 @@
 # lucasg.com.br
 
-``bash
-npm install  
-npm start
-``
+```bash
+  # Install all npm dependencies  
+  $ npm install  
+  
+  # Start project  
+  $npm start
+```
