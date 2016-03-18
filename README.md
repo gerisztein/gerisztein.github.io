@@ -1,5 +1,6 @@
 # lucasg.com.br
 
 ``bash
-npm install
+npm install  
 npm start
+``
