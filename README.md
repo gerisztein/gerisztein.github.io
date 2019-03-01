@@ -1,9 +1,22 @@
-# lucasg.com.br
+# lvcas.dev
 
-```bash
-  # Install all npm dependencies  
-  $ npm install  
-  
-  # Build then start project  
-  $ npm start
+> Lucas Gerisztein Personal Page
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn run dev
+
+# build for production and launch server
+$ yarn run build
+$ yarn start
+
+# generate static project
+$ yarn run generate
 ```
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
