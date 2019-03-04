@@ -18,12 +18,4 @@ cache:
 script:
   - yarn install
   - yarn generate
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  target-branch: master
-  local_dir: dist/
-  on:
-    branch: master
+  - yarn deploy
