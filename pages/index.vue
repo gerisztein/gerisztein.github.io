@@ -12,15 +12,20 @@
         p 📍I'm born and raised in <b>Brasil</b> and since 2017 I'm based in <b>Berlin</b>.
     .links
       span
-        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg")
+        a(href="https://www.linkedin.com/in/gerisztein/")
+          img(alt="me @ linkedin", height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg")
       span
-        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/github.svg")
+        a(href="https://www.github.com/gerisztein/")
+          img(alt="me @ github", height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/github.svg")
       span
-        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/twitter.svg")
+        a(href="https://www.twitter.com/gerisztein/")
+          img(alt="me @ twitter", height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/twitter.svg")
       span
-        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/instagram.svg")
+        a(href="https://www.instagram.com/gerisztein/")
+          img(alt="me @ instagram", height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/instagram.svg")
       span
-        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/gmail.svg")
+        a(href="mailto:lucas@lucasg.com.br?subject=lvcas.dev")
+          img(alt="e-mail me at lucas@lucasg.com.br", height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/gmail.svg")
 </template>
 
 <script>
