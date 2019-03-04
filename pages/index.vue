@@ -2,13 +2,14 @@
   main.container
     div
       h1.title
-        | Hi! My name is Lucas Gerisztein.
+        | <b>Hi!</b> My name is Lucas Gerisztein<b>.</b>
+      .separator
       h2.subtitle
         p
           em tl;dr
-        p I'm currently working as <b>Frontend Developer</b> at <a href="https://crvsh.com">crvsh</a>.
-        p On my free time I'm also the co-founder of <a href="http://cake-mag.com">Cake Magazine</a> and a photography enthusiast.
-        p I'm Brazilian and based in Berlin since 2017.
+        p 👨‍💻I'm currently working as <b>Frontend Developer</b> at <a href="https://crvsh.com">crvsh</a>.
+        p 📸On my free time I'm also the <b>co-founder</b> of <a href="http://cake-mag.com">Cake Magazine</a> and a <b>photography enthusiast</b> on <a href="https://instagram.com/gerisztein">Instagram</a> and <a href="https://flickr.com/gerisztein">Flickr</a>.
+        p 📍I'm born and raised in <b>Brasil</b> and since 2017 I'm based in <b>Berlin</b>.
     .links
       span
         img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg")
@@ -18,6 +19,8 @@
         img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/twitter.svg")
       span
         img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/instagram.svg")
+      span
+        img(height="20", width="20", src="https://unpkg.com/simple-icons@latest/icons/gmail.svg")
 </template>
 
 <script>
@@ -32,22 +35,38 @@ export default {
   display flex
   justify-content flex-start
   margin 0 auto
-  max-width 38%
+  max-width 58%
   min-height 100vh
   margin-left 11%
 
+  @media screen and (min-width: 768px)
+    max-width 48%
+
+  @media screen and (min-width: 1024px)
+    max-width 38%
+
 .title
   display block
-  font-weight 700
-  font-size 40px
-
-.subtitle
-  border-top 15px solid #ff0
   font-family 'Courier New', Courier, monospace
   font-weight 500
-  font-size 15px
+  font-size 20px
+  padding-top 16px
+
+  @media screen and (min-width: 768px)
+    font-size 40px
+
+.separator
+  background-color #ff0
+  height 15px
+  margin-left -30%
+  margin-top 15px
+  width 135%
+
+.subtitle
+  font-family 'Courier New', Courier, monospace
+  font-weight 500
+  font-size 14px
   line-height 28px
-  margin 15px 0
   padding 15px 0
 
   em
