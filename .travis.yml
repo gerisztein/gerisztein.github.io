@@ -18,7 +18,6 @@ cache:
 script:
   - yarn install
   - yarn generate
-  - yarn deploy
 
 deploy:
   provider: pages
